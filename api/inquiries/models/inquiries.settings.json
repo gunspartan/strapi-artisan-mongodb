@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inquiries",
+  "info": {
+    "name": "inquiries",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "userName": {
+      "type": "string",
+      "required": true
+    },
+    "userEmail": {
+      "type": "string",
+      "private": false,
+      "required": true
+    },
+    "projectDesc": {
+      "type": "text",
+      "required": true,
+      "private": false
+    },
+    "budget": {
+      "type": "string",
+      "required": true,
+      "private": false
+    },
+    "timeline": {
+      "type": "text",
+      "private": false,
+      "required": true
+    },
+    "serviceType": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
