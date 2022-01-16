@@ -1,3 +1,3 @@
-# Strapi application
+# Strapi Artisan MongoDB
 
-A quick description of your strapi application
+Strapi application with MongoDB for the backend of Artisan Residential Services website 
