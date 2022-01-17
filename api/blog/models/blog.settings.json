@@ -20,17 +20,6 @@
       "type": "richtext",
       "required": true
     },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "author": {
       "type": "string",
       "required": true
@@ -46,6 +35,9 @@
     "summary": {
       "type": "text",
       "unique": true
+    },
+    "image": {
+      "type": "string"
     }
   }
 }
