@@ -39,7 +39,6 @@
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     
   </ol>
@@ -51,20 +50,14 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://artisan-online-client.herokuapp.com/)
 
+Artisan Online backend CMS for blog posts, portfolio, and for handling forms using Strapi and MongoDB
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
 - [Strapi](https://strapi.io)
 - [MongoDB Atlas](https://www.mongodb.com/atlas/database)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
